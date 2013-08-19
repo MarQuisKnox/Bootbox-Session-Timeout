@@ -3,7 +3,7 @@ Bootbox-Session-Timeout
 
 jQuery Session Timeout using Bootbox.js & Twitter Bootstrap
 <br><br>
-<b>Author:</b>&nbsp;&nbsp;MarQuis Knox <opensource@marquisknox.com>
+<b>Author:</b>&nbsp;&nbsp;MarQuis Knox
 <br>
 <b>Credits:</b>
 <ul>
