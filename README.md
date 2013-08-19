@@ -3,13 +3,14 @@ Bootbox-Session-Timeout
 
 jQuery Session Timeout using Bootbox.js & Twitter Bootstrap
 <br><br>
-Author:  MarQuis Knox
+<b>Author:</b>&nbsp;&nbsp;MarQuis Knox <opensource@marquisknox.com>
 <br>
-Credits:
+<b>Credits:</b>
+<ul>
+  <li>Bootbox.js:  https://github.com/makeusabrew/bootbox</li>
+  <li>jquery-idleTimeout:  https://github.com/philpalmieri/jquery-idleTimeout</li>
+  <li>Twitter Bootstrap:  https://github.com/twbs/bootstrap</li>
+</ul>
 <br>
 <br>
-Bootbox.js:  https://github.com/makeusabrew/bootbox
-<br>
-jquery-idleTimeout:  https://github.com/philpalmieri/jquery-idleTimeout
-<br>
-Twitter Bootstrap:  https://github.com/twbs/bootstrap
+<b>Demo:</b>&nbsp;&nbsp;http://bootbox-session-timeout.tempstage.net
