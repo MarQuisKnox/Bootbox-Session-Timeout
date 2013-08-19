@@ -62,7 +62,7 @@
     		  "label": opts.btnDialogGo,
     		  "class": "btn-danger",
     		  "callback": function() {
-    			  logout();
+    			  redirect();
     		  }
     	  }]);    	  
       }
