@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootbox Session Timeout Demo</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />		
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
+		<link type="text/css" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+		<link type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootbox.min.js"></script>
+		<script type="text/javascript" src="js/jquery-idleTimeout.js"></script>
+	</head>
+<body>
+	<div class="page">
+	</div>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			bootbox.alert('This is a demo of Bootbox Session Timeout');
+			
+			$(document).idleTimeout({ 
+				inactivity: 30000, 
+				noconfirm: 10000, 
+				sessionAlive: 10000 
+			});
+		});	
+	</script>	
+</body>
+</html>
