@@ -13,4 +13,4 @@ jQuery Session Timeout using Bootbox.js & Twitter Bootstrap
 </ul>
 <br>
 <br>
-<b>Demo:</b>&nbsp;&nbsp;http://bootbox-session-timeout.tempstage.net
+<b>Demo:</b>&nbsp;&nbsp;https://marquisknox.github.io/Bootbox-Session-Timeout
