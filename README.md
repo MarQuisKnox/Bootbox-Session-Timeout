@@ -1,4 +1,4 @@
 Bootbox-Session-Timeout
 =======================
 
-Demo:  jQuery Session Timeout using Bootbox.js
+Demo:  jQuery Session Timeout using Bootbox.js & Twitter Bootstrap
