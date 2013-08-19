@@ -16,10 +16,17 @@
 	
 	<script type="text/javascript">
 		$(document).ready(function() {
-			bootbox.alert('This is a demo of Bootbox Session Timeout<br><a href="https://github.com/MarQuisKnox/Bootbox-Session-Timeout" target="_blank">https://github.com/MarQuisKnox/Bootbox-Session-Timeout</a>');
+			var SESSION_TIMEOUT = 30000;
+		
+			function msToSecs(ms) {
+				var x = ms / 1000
+				return x % 60;
+			}				
+			
+			bootbox.alert('This is a demo of Bootbox Session Timeout<br><a href="https://github.com/MarQuisKnox/Bootbox-Session-Timeout" target="_blank">https://github.com/MarQuisKnox/Bootbox-Session-Timeout</a><br><br>You will be automatically logged out after ' + msToSecs( SESSION_TIMEOUT ) + ' seconds of inactivity.');
 			
 			$(document).idleTimeout({ 
-				inactivity: 30000, 
+				inactivity: SESSION_TIMEOUT, 
 				noconfirm: 10000, 
 				sessionAlive: 10000 
 			});
